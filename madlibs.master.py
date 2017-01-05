@@ -5,13 +5,13 @@
 print('Pick an adjective')
 
 #Has the user input an adjective which gets saved as the string adj1
-adj1 = input()
+adj1 = raw_input()
 
 #***Use the story prompt below to ask the user for the remaining words to complete the story***
 print('Pick a plural noun ')
-noun = input()
+noun = raw_input()
 print ('Pick an activity')
-noun2 = input()
+noun2 = raw_input()
 
 #This is where the story for each mad lib will go
 print('Roses are ' + adj1)
